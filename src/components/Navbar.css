@@ -1,5 +1,13 @@
+.color {
+    color:#425563;
+    color:#CFC493;
+    color:#D6A461;
+    color:#A77BCA;
+    color:#A1D884;
+    color:#E04F39;
+}
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: #425563;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -93,7 +101,7 @@
     }
 
     .nav-menu.active {
-        background: #242222;
+        background: #425563;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -152,7 +160,7 @@
 
     .nav-links-mobile:hover {
         background: #fff;
-        color: #242424;
+        color: #425563;
         transition: 250ms;
     }
 }

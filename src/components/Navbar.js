@@ -19,7 +19,7 @@ function Navbar() {
     }
 
     useEffect(() => {
-        showButton()
+        showButton();
     }, []);
 
     window.addEventListener('resize', showButton);
@@ -28,7 +28,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         MasterBear <i className='fab fa-typo3' />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
