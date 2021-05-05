@@ -36,6 +36,15 @@
     font-size: 100px;
 }
 
+.projects {
+    background-image: url(/src/images/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
 .sign-up {
     background-image: url(/src/images/img-8.jpg);
     background-position: center;
